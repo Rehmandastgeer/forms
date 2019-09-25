@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="forms.js"></script>
+</head>
+<body>
+
+        <div class="container">
+            <div class="row">
+             
+            <div class="col-md-6">
+                    <h2>Form1 </h2>
+                <form id="form1" >
+                    <div class="form-group">
+                    <label for="f1name">First Name:</label>
+                    <input type="text" class="form-control" id="f1Fname"  placeholder="Enter First Name" name="f1Fname"  onkeypress="return onlyAlphabets(event,this);" required>
+                    </div>
+                    <div class="form-group">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" class="form-control" id="f1Lname" placeholder="Enter Last Name" name="f1Lname" onkeypress="return onlyAlphabets(event,this);" required>
+                    </div>
+                    <div class="form-group">
+                            <p id="demo"></p>
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="f1email" placeholder="Enter email" name="f1email">
+                    </div>
+                    <div class="form-group">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="f1pwd" placeholder="Enter password" name="f1pwd">
+                    </div>
+                
+                    <button type="button" class="btn btn-primary" onclick="myform1()">Submit</button>
+                    
+
+                    
+                </form>
+        </div>
+         
+        
+            <div class="col-md-6">
+                    <h2>Form2</h2>
+                    <form>
+                            <div class="form-group">
+                            <label for="f2Fname">First Name:</label>
+                            <input type="text" class="form-control" id="f2Fname" placeholder="Enter First Name" name="f2Fname" onkeypress="return onlyAlphabets(event,this);" required>
+                            </div>
+                            <div class="form-group">
+                            <label for="f2Lname">Last Name:</label>
+                            <input type="text" class="form-control" id="f2Lname" placeholder=" Enter Last Name" name="f2Lname" onkeypress="return onlyAlphabets(event,this);" required>
+                            </div>
+                            <div class="form-group">
+                            <label for="f2email">Email:</label>
+                            <input type="email" class="form-control" id="f2email" placeholder="Enter email" name="f2email">
+                            </div>
+                            <div class="form-group">
+                            <label for="f2pwd">Password:</label>
+                            <input type="password" class="form-control" id="f2pwd" placeholder="Enter password" name="f2pwd">
+                            </div>
+                            
+                            <button type="button" class="btn btn-primary" onclick="myform2(event)">Submit</button>
+                        </form>
+        </div>
+        </div>
+        </div>
+
+</body>
+</html>
