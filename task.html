@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+        <title>Example</title>
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="task.js"></script>
+
+        
+</head>
+<body>
+            <div class="container" id="container1">
+                
+                    <h2>Rating Page</h2>
+                
+            </div>
+            <div class="container" id="container2">
+                <div class="row" id="R2">
+                    <div class="col-md-6" id="c3">
+                            <label for="title" >Title:</label>
+                            <input type="text" class="form-control" id="title"  placeholder="Enter Title" name="title">
+                            <h3>Description</h3>
+                            <textarea type="text" placeholder="Enter Description here" id="des" name="des"></textarea>
+                            <h2>Rate Us</h2>
+                                <span class="fa fa-star" id="star1" onclick="add(this,1)"></span>
+                                <span class="fa fa-star" id="star2" onclick="add(this,2)"></span>
+                                <span class="fa fa-star" id="star3" onclick="add(this,3)"></span>
+                                <span class="fa fa-star" id="star4" onclick="add(this,4)"></span>
+                                <span class="fa fa-star" id="star5" onclick="add(this,5)"></span><br>
+                            
+                            <p>if you want to save your data than click here</p>
+                            <button  class="btn btn-priamry" type="button" id="save" onclick="action()">Save</button>
+                            <button class="btn btn-priamry" type="button" id="show" onclick="location.href='file:///C:/Users/SONU%20COMPUTER/Desktop/testProj/task2.html'">Show</button>
+                    </div>
+
+                </div>
+            </div>
+
+            
+    
+</body>

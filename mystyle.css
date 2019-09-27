@@ -1,0 +1,35 @@
+#container1{
+  background-color: rgb(57, 105, 105);
+  width: 100% !important;
+
+  
+}
+h2{
+    text-align: center;
+   
+}
+textarea{
+    width: 650px;
+}
+.checked {
+    color: rgb(172, 116, 14);
+}
+#container2{
+    background-color: rgb(140, 243, 238);
+    width: 100% !important;
+}
+#c3{
+    margin-left: 150px;
+}
+#btn1{
+    margin-left: 700x;
+}
+#container3{
+    background-color: rgb(57, 105, 105);
+    width: 100% !important;
+  
+}
+#container4{
+    background-color: rgb(140, 243, 238);
+    width: 100% !important;
+}
